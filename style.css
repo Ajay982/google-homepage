@@ -2,11 +2,33 @@
     font-family: Arial, sans-serif;
     font-size: 13px;
     font-weight: 400;
+    line-height: 24px;
 }
-.nav-bar{
+.header{
     display: flex;
+    justify-content: flex-end;
     text-align: right;
     border: 0;
+}
+
+.gmail{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.images{
+    margin-right: 25px;
+    margin-top: 15px;
+}
+#button{
+    margin: 10px;
+}
+
+.icon{
+    height: 25px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .container{
@@ -36,12 +58,12 @@ img{
     width: 80px;
 }
 
-#btn{
+.btn{
     border-color: transparent;
     background: transparent;
     margin-top: 20px;
 }
-#btn:hover{
+.btn:hover{
     border-color: ivory;
     border-radius: 0.5px;
 }
@@ -51,14 +73,19 @@ a{
 }
 footer{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     left: 0;
     bottom: 0;
     position: fixed;
     width: 100%;
-    
-   
+}
 
+div a{
+   margin: 10px;
+}
+
+p a{
+    margin: 3px;
 }
 footer a{
     color: black;
