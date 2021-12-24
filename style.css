@@ -80,6 +80,10 @@ footer{
     width: 100%;
 }
 
+hr{
+    margin-top: 150px;
+}
+
 div a{
    margin: 10px;
 }
