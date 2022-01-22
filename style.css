@@ -95,3 +95,36 @@ footer a{
 p a{
     font-size: 11px;
 }
+
+@media only screen and (max-width: 600px) {
+        #button{
+            border-radius: 50px;
+            margin-top: 15px;
+            height: 25px;
+            width: 25px;
+    }
+    
+    .gmail, .images{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+
+    #input{
+        width: 300px;
+    }
+
+    p{
+        width: 300px;
+    }
+  }
+/* @media screen (orientation: portrait){
+    
+} */
